@@ -145,3 +145,19 @@ nav img {
     width: 10%;
     height: auto;
 }
+
+
+footer {
+    font-family: "trueno", sans-serif;
+    color: #6ab454;
+    font-size: 0.8vw;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #27222a;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    letter-spacing: 0.05em;
+}
