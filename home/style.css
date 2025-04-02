@@ -26,11 +26,11 @@
     font-family: 'trueno-bold', sans-serif;
     font-size: inherit;
 
-    transition: font-size 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
 }
 
 .highlight:hover {
-    font-size: 110%;
+    color: #ffffc8;
 }
 
 .message{
@@ -70,9 +70,9 @@ body {
 .download {
     background-color: #2a252d00;
     border: 2px solid #6ab454;
+    text-shadow: 0px 10px 0px #00000025;
     text-decoration: none;
     color: #6ab454;
-    text-shadow: none;
     border-radius: 100px;
     padding: 25px;
     font-family: 'trueno-bold', sans-serif;
@@ -81,14 +81,14 @@ body {
     top: 75%;
     transform: translateY(70%);
 
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, font-size 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, font-size 0.2s ease-in-out, box-shadow 0.2s ease-in-out, text-shadow 0.2s ease-in-out;
 }
 
 .download:hover {
     background-color: #6ab454;
     color: #fff;
-    font-size: 4.8vw;
     box-shadow: 0px 15px 0px #00000025;
+    text-shadow: none;
 }
 
 nav {
@@ -106,7 +106,7 @@ nav {
 
 nav ul {
     list-style-type: none;
-    padding-left: 50px;
+    padding-left: 25px;
     display: flex;
     margin-left: 10px;
 }
@@ -115,7 +115,7 @@ nav li {
     display: inline-block;
 }
 
-nav a {
+nav .navbutton {
     font-family: "trueno", sans-serif;
     display: block;
     padding: 15px;
@@ -126,13 +126,18 @@ nav a {
     transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
-nav a:hover {
+nav .navbutton:hover {
     color: #6ab454;
     transform: scale(1.1);
 }
 
-nav img {
+nav .home {
+    display: inline-block;
     width: 10%;
+}
+
+nav .largelogo {
+    width: 100%;
     height: auto;
 }
 

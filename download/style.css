@@ -26,13 +26,12 @@
     font-family: 'trueno-bold', sans-serif;
     font-size: inherit;
 
-    transition: font-size 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
 }
 
 .highlight:hover {
-    font-size: 110%;
+    color: #ffffc8;
 }
-
 
 body {
     margin: 0;
@@ -116,7 +115,7 @@ nav {
 
 nav ul {
     list-style-type: none;
-    padding-left: 50px;
+    padding-left: 25px;
     display: flex;
     margin-left: 10px;
 }
@@ -125,7 +124,7 @@ nav li {
     display: inline-block;
 }
 
-nav a {
+nav .navbutton {
     font-family: "trueno", sans-serif;
     display: block;
     padding: 15px;
@@ -136,13 +135,18 @@ nav a {
     transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
-nav a:hover {
+nav .navbutton:hover {
     color: #6ab454;
     transform: scale(1.1);
 }
 
-nav img {
+nav .home {
+    display: inline-block;
     width: 10%;
+}
+
+nav .largelogo {
+    width: 100%;
     height: auto;
 }
 
