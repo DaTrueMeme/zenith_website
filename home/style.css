@@ -28,15 +28,15 @@
 
     transition: font-size 0.2s ease-in-out;
 }
-
+/* 
 .highlight:hover {
     font-size: 110%;
-}
+} */
 
 .message{
     font-family: "trueno", sans-serif;
     color: #6ab454;
-    font-size: 550%;
+    font-size: 4.5vw;
     padding: 0;
     position: absolute;
     top: 50%;
@@ -76,7 +76,7 @@ body {
     border-radius: 100px;
     padding: 25px;
     font-family: 'trueno-bold', sans-serif;
-    font-size: 100%;
+    font-size: 4.5vw;
     position: absolute;
     top: 75%;
     transform: translateY(70%);
@@ -87,7 +87,7 @@ body {
 .download:hover {
     background-color: #6ab454;
     color: #fff;
-    font-size: 110%;
+    font-size: 4.8vw;
 }
 
 nav {
@@ -120,7 +120,7 @@ nav a {
     padding: 8px;
     color: #fff;
     text-decoration: none;
-    font-size: 100%;
+    font-size: 1vw;
 
     transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
