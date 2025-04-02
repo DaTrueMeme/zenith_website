@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'digitalt';
+    src: url('../fonts/Digitalt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'trueno';
+    src: url('../assets/fonts/Trueno.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'trueno-bold';
+    src: url('../assets/fonts/TruenoExtraBold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.highlight {
+    color: #fff;
+    text-decoration: underline;
+    text-shadow: none;
+    font-family: 'trueno-bold', sans-serif;
+    font-size: inherit;
+
+    transition: font-size 0.2s ease-in-out;
+}
+
+.highlight:hover {
+    font-size: 110%;
+}
+
+.message{
+    font-family: "trueno", sans-serif;
+    color: #6ab454;
+    font-size: 550%;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-65%);
+    text-shadow: 0px 15px 0px #00000025;
+}
+
+h1 {
+    margin-bottom: 0;
+    line-height: 55%;
+}
+
+h2 {
+    font-size: 110%;
+    margin-top: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2a252d;
+    background-image: url(../assets/images/background\ tile.gif);
+    background-size: 100px;
+}
+
+.mclogo {
+    width: 10%;
+    transform: translateY(15%);
+}
+
+.download {
+    background-color: #2a252d00;
+    border: 2px solid #6ab454;
+    text-decoration: none;
+    color: #6ab454;
+    text-shadow: none;
+    border-radius: 100px;
+    padding: 25px;
+    font-family: 'trueno-bold', sans-serif;
+    font-size: 100%;
+    position: absolute;
+    top: 75%;
+    transform: translateY(70%);
+
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, font-size 0.2s ease-in-out;
+}
+
+.download:hover {
+    background-color: #6ab454;
+    color: #fff;
+    font-size: 110%;
+}
+
+nav {
+    background-color: #27222a;
+    padding: 10px;
+    margin: 0;
+    top: 0;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 50px;
+    display: flex;
+    margin-left: 10px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-family: "trueno", sans-serif;
+    display: block;
+    padding: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 100%;
+
+    transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+nav a:hover {
+    color: #6ab454;
+    transform: scale(1.1);
+}
+
+nav img {
+    width: 10%;
+    height: auto;
+}
