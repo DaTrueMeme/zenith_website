@@ -171,7 +171,7 @@ footer {
     width: 100%;
     background-color: #27222a;
     text-align: center;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+    right: 0;
     letter-spacing: 0.05em;
 }
