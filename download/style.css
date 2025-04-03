@@ -167,3 +167,7 @@ footer {
     transform: translateX(-50%);
     letter-spacing: 0.05em;
 }
+
+a {
+    color: inherit;
+}
