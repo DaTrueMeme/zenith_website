@@ -31,11 +31,13 @@
 }
 
 body {
-    /* background-color: #121212; */
-    background-image: url("../assets/images/top.png");
+    background-color: #121212;
+    /* background-image: url("../assets/images/top.png");
     background-size: contain;
-    background-position-y: -75px;
+    background-position-y: -10vh;
+    background-repeat: no-repeat; */
     margin: 0px;
+    cursor: url('../assets/images/cursor.png'), auto;
 }
 
 .title {
@@ -48,6 +50,24 @@ body {
     color: #6ab454;
     animation: fadeIn 2s ease-in-out;
     text-shadow: 10px 10px 5px #0a0a0a;
+}
+
+.title .text {
+    text-align: center;
+}
+
+.title .text p {
+    font-family: 'trueno';
+    font-size: 20px;
+    color: #fff;
+    transform: translateY(-250%);
+}
+
+
+hr {
+    border: none;
+    height: 5px;
+    background-color: #6ab454;
 }
 
 
@@ -83,6 +103,11 @@ body {
     margin-bottom: 0;
     flex-shrink: 0;
     border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.info-card img:hover {
+    transform: scale(1.05);
 }
 
 .info-text {
@@ -90,6 +115,12 @@ body {
     flex: 1;
     flex-direction: column;
     justify-content: center;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.info-text:hover {
+    transform: scale(1.01);
+    color: #b8dfad;
 }
 
 @media (max-width: 600px) {
